@@ -1,0 +1,66 @@
+.header{
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.658);
+}
+
+body{
+  background-image: url(bg.png);
+}
+.container{
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto; 
+  border: 20px solid transparent;
+  border-radius: 10px;
+  background-color: rgba(128, 0, 128, 0.703);
+  margin-top: 20px;
+}
+
+input[type=text]{
+  width: 1000px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid pink;
+  color:deeppink;
+}
+
+label{
+  font-size: 20px;
+  color: rgb(35, 16, 30);
+}
+
+#email{
+  width: 1000px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid pink;
+  color:deeppink;
+}
+
+#suggest{
+  width: 1000px;
+  height: 200px;
+  border: 2px solid pink;
+  color:deeppink;
+}
+
+h1{
+  font-size: 100px;
+  color: rgb(135, 64, 76);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type=text]:hover {
+  border-color: blue;
+}
+
+#email:hover {
+  border-color: blue;
+}
+
+#suggest:hover {
+  border-color: blue;
+}
